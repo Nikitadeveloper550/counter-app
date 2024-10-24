@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(247, 247, 247);
+    font-family: inter;
+}
+
+.max-width {
+    max-width: 500px;
+}
+
+.text-color {
+    color: rgba(128, 128, 128);
+}
+
+.box {
+    max-width: 480px;
+    min-height: 226px;
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.add-button {
+    padding: 13px 35px 13px 35px;
+    background-color: #128DFF;
+    color: white;
+    border: none;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(247, 247, 247);
+    font-family: inter;
+}
+
+.section-2 {
+    .max-width {
+        max-width: 500px;
+    }
+
+    .text-color {
+        color: rgba(128, 128, 128);
+    }
+
+    .box {
+        max-width: 480px;
+        min-height: 304px;
+        box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+
+    .add-onebutton {
+        padding: 13px 35px 13px 35px;
+        background-color: white;
+        color: #128DFF;
+        border: 2px solid #128DFF;
+    }
+
+    .savebutton {
+        padding: 13px 45px 13px 45px;
+        background-color: #128DFF;
+        color: white;
+        border: none;
+    }
+
+    .previous-value {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+    }
+}
