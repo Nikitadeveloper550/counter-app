@@ -23,8 +23,17 @@
  });
 
  saveButton.addEventListener('click', () => {
-     savedValues.push(count);
+     count > 0 && savedValues.push(count);
      previousValues.textContent = savedValues.join(', ');
      count = 0;
      counterDisplay.textContent = count;
+
+     //  if (count === 0) {
+     //     alert("You can't save zero. Please add a value first.");
+     //     return; 
+     //   }
+
+     //   previousValues.textContent = previousValues.textContent + ", " + count; 
+     //   count = 0; 
+     //   counterDisplay.textContent = count; 
  });
