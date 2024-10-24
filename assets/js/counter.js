@@ -25,4 +25,6 @@
  saveButton.addEventListener('click', () => {
      savedValues.push(count);
      previousValues.textContent = savedValues.join(', ');
+     count = 0;
+     counterDisplay.textContent = count;
  });
